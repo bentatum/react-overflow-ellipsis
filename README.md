@@ -22,7 +22,11 @@ npm install react-overflow-ellipsis
 ## Usage
 
 ```js
-var reactOverflowEllipsis = require('react-overflow-ellipsis')
+import { default as OverflowEllipsis } from 'react-overflow-ellipsis'
+
+<OverflowEllipsis>
+  <p>If your text overflows the dimensions of it's parent, it will still look nice.</p>
+</OverflowEllipsis>
 ```
 
 ## Contributing
