@@ -25,7 +25,13 @@ npm install react-overflow-ellipsis
 import { default as OverflowEllipsis } from 'react-overflow-ellipsis'
 
 <OverflowEllipsis>
-  <p>If your text overflows the dimensions of it's parent, it will still look nice.</p>
+  If your text overflows, it will still look nice.
+</OverflowEllipsis>
+
+<OverflowEllipsis>
+  <p style={{ display: 'inline' }}>
+    Child elements should be inline.
+  </p>
 </OverflowEllipsis>
 ```
 
