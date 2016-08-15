@@ -1,3 +1,4 @@
+
 import { default as React } from 'react'
 
 const OverflowEllipsis = ({ style, ...props }) =>
@@ -5,6 +6,7 @@ const OverflowEllipsis = ({ style, ...props }) =>
     style={{
       overflow: 'hidden',
       textOverflow: 'ellipsis',
+      whiteSpace: 'nowrap',
       ...style
     }}
     {...props}

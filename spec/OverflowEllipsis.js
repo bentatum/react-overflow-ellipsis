@@ -17,5 +17,6 @@ describe('OverflowEllipsis', () => {
     expect(tree.type).toEqual('div')
     expect(tree.props.style).toInclude({ overflow: 'hidden' })
     expect(tree.props.style).toInclude({ textOverflow: 'ellipsis' })
+    expect(tree.props.style).toInclude({ whiteSpace: 'nowrap' })
   })
 })
